@@ -615,16 +615,17 @@ ul, ol {
   margin: 0 auto;
   padding: 0 var(--section-pad-h);
   display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
-  gap: 60px;
+  grid-template-columns: 1fr;
   align-items: center;
   position: relative;
   z-index: 2;
   width: 100%;
+  pointer-events: none;
 }
 
 .hero-content {
   padding: 80px 0;
+  pointer-events: auto;
 }
 
 .hero-label {
