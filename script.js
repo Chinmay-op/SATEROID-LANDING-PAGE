@@ -145,7 +145,7 @@ function initMobileMenu() {
 function initHeroAnimation() {
   const label = document.querySelector('.hero-label');
   const lines = document.querySelectorAll('.hero h1 .line');
-  const subtitle = document.querySelector('.hero-subtitle');
+  const subtitles = document.querySelectorAll('.hero-subtitle');
   const ctaGroup = document.querySelector('.hero-cta-group');
   const trust = document.querySelector('.hero-trust');
   const visual = document.querySelector('.hero-visual');
@@ -160,17 +160,17 @@ function initHeroAnimation() {
     setTimeout(() => line.classList.add('animate'), delays[1] + (i * 100));
   });
 
-  if (subtitle) {
-    const lastLineDelay = delays[1] + (lines.length * 100) + 200;
-    setTimeout(() => subtitle.classList.add('animate'), lastLineDelay);
-  }
+  const lastLineDelay = delays[1] + (lines.length * 100) + 100;
+  subtitles.forEach((sub, i) => {
+    setTimeout(() => sub.classList.add('animate'), lastLineDelay + (i * 120));
+  });
 
   if (ctaGroup) {
-    setTimeout(() => ctaGroup.classList.add('animate'), 700);
+    setTimeout(() => ctaGroup.classList.add('animate'), 550);
   }
 
   if (trust) {
-    setTimeout(() => trust.classList.add('animate'), 900);
+    setTimeout(() => trust.classList.add('animate'), 700);
   }
 
   if (visual) {

@@ -230,38 +230,48 @@
         </div>
 
         <div class="ai-visual reveal" data-delay="0" aria-hidden="true">
-          <!-- Neural Network SVG -->
-          <svg viewBox="0 0 480 480" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <!-- Connection lines -->
-            <line x1="100" y1="80" x2="240" y2="140" stroke="#3781C2" stroke-width="1" opacity="0.3"/>
-            <line x1="100" y1="80" x2="160" y2="240" stroke="#00A99D" stroke-width="1" opacity="0.25"/>
-            <line x1="240" y1="140" x2="360" y2="100" stroke="#3781C2" stroke-width="1" opacity="0.3"/>
-            <line x1="240" y1="140" x2="240" y2="280" stroke="#00A99D" stroke-width="1" opacity="0.35"/>
-            <line x1="360" y1="100" x2="400" y2="240" stroke="#3781C2" stroke-width="1" opacity="0.25"/>
-            <line x1="160" y1="240" x2="240" y2="280" stroke="#3781C2" stroke-width="1" opacity="0.3"/>
-            <line x1="240" y1="280" x2="400" y2="240" stroke="#00A99D" stroke-width="1" opacity="0.25"/>
-            <line x1="160" y1="240" x2="120" y2="380" stroke="#3781C2" stroke-width="1" opacity="0.2"/>
-            <line x1="240" y1="280" x2="200" y2="400" stroke="#00A99D" stroke-width="1" opacity="0.3"/>
-            <line x1="240" y1="280" x2="340" y2="380" stroke="#3781C2" stroke-width="1" opacity="0.25"/>
-            <line x1="400" y1="240" x2="380" y2="380" stroke="#00A99D" stroke-width="1" opacity="0.2"/>
-            <line x1="120" y1="380" x2="200" y2="400" stroke="#3781C2" stroke-width="1" opacity="0.2"/>
-            <line x1="200" y1="400" x2="340" y2="380" stroke="#00A99D" stroke-width="1" opacity="0.25"/>
-            <line x1="340" y1="380" x2="380" y2="380" stroke="#3781C2" stroke-width="1" opacity="0.2"/>
-            <!-- Nodes -->
-            <circle class="node" cx="100" cy="80" r="6" fill="#3781C2" opacity="0.7"/>
-            <circle class="node" cx="240" cy="140" r="8" fill="#00A99D" opacity="0.8"/>
-            <circle class="node" cx="360" cy="100" r="5" fill="#3781C2" opacity="0.6"/>
-            <circle class="node" cx="160" cy="240" r="7" fill="#00A99D" opacity="0.7"/>
-            <circle class="node" cx="240" cy="280" r="10" fill="#3781C2" opacity="0.9"/>
-            <circle class="node" cx="400" cy="240" r="6" fill="#00A99D" opacity="0.7"/>
-            <circle class="node" cx="120" cy="380" r="5" fill="#3781C2" opacity="0.6"/>
-            <circle class="node" cx="200" cy="400" r="7" fill="#00A99D" opacity="0.7"/>
-            <circle class="node" cx="340" cy="380" r="6" fill="#3781C2" opacity="0.7"/>
-            <circle class="node" cx="380" cy="380" r="4" fill="#00A99D" opacity="0.5"/>
-            <!-- Rings -->
-            <circle cx="240" cy="240" r="180" stroke="rgba(255,255,255,0.05)" stroke-width="1" fill="none"/>
-            <circle cx="240" cy="240" r="120" stroke="rgba(255,255,255,0.04)" stroke-width="1" fill="none"/>
-          </svg>
+          <!-- Animated Atom / Neural Network -->
+          <div class="atom-container">
+            <!-- Rotating orbital rings -->
+            <div class="orbit orbit--1">
+              <div class="electron electron--1"></div>
+              <div class="electron electron--1b"></div>
+            </div>
+            <div class="orbit orbit--2">
+              <div class="electron electron--2"></div>
+              <div class="electron electron--2b"></div>
+            </div>
+            <div class="orbit orbit--3">
+              <div class="electron electron--3"></div>
+            </div>
+
+            <!-- Outer decorative rings -->
+            <div class="orbit-ring orbit-ring--outer"></div>
+            <div class="orbit-ring orbit-ring--mid"></div>
+            <div class="orbit-ring orbit-ring--inner"></div>
+
+            <!-- Central nucleus -->
+            <div class="nucleus">
+              <div class="nucleus-core"></div>
+              <div class="nucleus-glow"></div>
+            </div>
+
+            <!-- Floating particles -->
+            <div class="particle particle--1"></div>
+            <div class="particle particle--2"></div>
+            <div class="particle particle--3"></div>
+            <div class="particle particle--4"></div>
+            <div class="particle particle--5"></div>
+            <div class="particle particle--6"></div>
+            <div class="particle particle--7"></div>
+            <div class="particle particle--8"></div>
+
+            <!-- Connection beams -->
+            <div class="beam beam--1"></div>
+            <div class="beam beam--2"></div>
+            <div class="beam beam--3"></div>
+            <div class="beam beam--4"></div>
+          </div>
         </div>
       </div>
     </section>
