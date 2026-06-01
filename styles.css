@@ -2438,28 +2438,28 @@ ul, ol {
 
   .hero h1 {
     font-size: 34px;
-    margin-bottom: 12px;
+    margin-bottom: 24px;
   }
 
   .hero-label {
-    margin-bottom: 14px;
+    margin-bottom: 20px;
     font-size: 10px;
   }
 
   .hero-subtitle {
     font-size: 14px;
-    margin-bottom: 14px;
-    line-height: 1.5;
+    margin-bottom: 32px;
+    line-height: 1.6;
   }
 
   .hero-content {
-    padding: 20px 0 16px;
+    padding: 32px 0 24px;
   }
 
   .hero-cta-group {
     flex-direction: column;
-    gap: 12px;
-    margin-bottom: 12px;
+    gap: 16px;
+    margin-bottom: 24px;
   }
 
   .hero-cta-group .btn {
